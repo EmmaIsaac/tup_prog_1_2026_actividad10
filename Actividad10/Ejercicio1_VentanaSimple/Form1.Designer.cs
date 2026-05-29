@@ -73,6 +73,7 @@
             btnRegistrar.TabIndex = 3;
             btnRegistrar.Text = "Registrar";
             btnRegistrar.UseVisualStyleBackColor = true;
+            btnRegistrar.Click += btnRegistrar_Click;
             // 
             // lbResultado
             // 
@@ -91,6 +92,7 @@
             btnCalcularPromedio.TabIndex = 5;
             btnCalcularPromedio.Text = "Calcular Promedio";
             btnCalcularPromedio.UseVisualStyleBackColor = true;
+            btnCalcularPromedio.Click += btnCalcularPromedio_Click;
             // 
             // tbBuscar
             // 
@@ -107,6 +109,7 @@
             btnBuscar.TabIndex = 7;
             btnBuscar.Text = "Buscar";
             btnBuscar.UseVisualStyleBackColor = true;
+            btnBuscar.Click += btnBuscar_Click;
             // 
             // tbResultado
             // 
